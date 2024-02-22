@@ -7,7 +7,7 @@ Meshgrid: $x_{ij} = X_i, \quad y_{ij} = Y_j$ where $i$ and $j$ are indices of $X
 
 #### Functioning of the application:
 
-    $START$ App
+    START App
     FUNCTION Plot_Contour(X,Y,Expression){
         X,Y = Meshgrid(X,Y)
         Z = Evaluate(X,Y,Expression)
@@ -37,4 +37,4 @@ Meshgrid: $x_{ij} = X_i, \quad y_{ij} = Y_j$ where $i$ and $j$ are indices of $X
     }
     END App
 
-Please note this psedocode only demonstrates working of application in simpler way. Actual app is more complex and involves external libraries for computation and processing of contour plots
+Please note this psedocode only demonstrates working of application in simpler way. Actual app is more complex and involves external libraries for computation and processing of contour plots.
