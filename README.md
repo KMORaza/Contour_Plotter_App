@@ -10,14 +10,14 @@ Meshgrid: $x_{ij} = X_i, \quad y_{ij} = Y_j$ where $i$ and $j$ are indices of $X
 #### Functioning of the application:
 
 START APP
-FUNCTION Generate_Contour(X,Y,Expression){
-    x = linspace(-10, 10, 100)
-    y = linspace(-10, 10, 100)
-    x, y = meshgrid(x, y)
-    z = evaluate_expression(expression, variable_x, variable_y)
-    fig = create_figure()
-    ax = add_subplot(fig, projection='3d')
-    contour_plot = plot_3d_contour(ax, x, y, z, levels=50, cmap='viridis')
+FUNCTION Generate_Contour($X$,$Y$,Expression){
+$X$
+$Y$
+$X$, $Y$ = Meshgrid($X$, $Y$)
+$Z$ = Evaluate($X$,$Y$,Expression)
+Plot=Create()
+Projection="3D"
+Plot 3D Contor
     add_colorbar(ax, contour_plot, label='Function Value')
     set_axes_labels(ax, variable_x, variable_y)
     set_plot_title(ax, '3D Contour')
