@@ -4,3 +4,5 @@ This is a desktop application that allows users to generate 3D contour plots bas
 #### Here are some calculations used:
 
 Linespace: $x_i = a + i \cdot \frac{{b - a}}{{\text{{num}} - 1}}$
+
+Meshgrid: $x_{ij} = X_i, \quad y_{ij} = Y_j$ where $i$ and $j$ are indices of $X$ and $Y$
