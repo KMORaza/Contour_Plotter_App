@@ -39,4 +39,4 @@ Meshgrid: $x_{ij} = X_i, \quad y_{ij} = Y_j$ where $i$ and $j$ are indices of $X
     }
     END App
 
-Please note this psedocode only demonstrates working of application in simpler way. Actual app is more complex that involves external libraries foe computation and processing of contour plots
+Please note this psedocode only demonstrates working of application in simpler way. Actual app is more complex ans involves external libraries for computation and processing of contour plots
