@@ -10,7 +10,9 @@ Meshgrid: $x_{ij} = X_i, \quad y_{ij} = Y_j$ where $i$ and $j$ are indices of $X
 #### Functioning of the application:
 
 START APP
+
 FUNCTION Generate_Contour($X$,$Y$,Expression){
+
 $X$
 $Y$
 $X$, $Y$ = Meshgrid($X$, $Y$)
