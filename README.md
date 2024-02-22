@@ -3,4 +3,4 @@ This is a desktop application that allows users to generate 3D contour plots bas
 
 #### Here are some calculations used:
 
-$[1]$ $x_i = a + i \cdot \frac{{b - a}}{{\text{{num}} - 1}}$
+Linespace: $x_i = a + i \cdot \frac{{b - a}}{{\text{{num}} - 1}}$
